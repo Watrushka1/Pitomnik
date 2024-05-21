@@ -1,0 +1,45 @@
+49 cat > Домашние животные'
+50 cat > 'Вьючные животные'
+51 cat Домашние\ животные Вьючные\ животные > 'Животные'
+52 cat Животные
+53 mv Животные 'Друзья человека'
+54 mkdir newdir
+55 mv Друзья\ человека newdir/
+56 tree
+57 wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb > commands
+58 cat > commands
+59 rm commands
+60 cat > commands
+61 cat commands
+62 history
+63 wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+64 cd Downloads/
+65 cd..
+67 ls
+68 cd Downloads/
+69 sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+70 ls
+71 wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+72 sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+73 ls
+74 lsof /var/lib/dpkg/lock-frontend
+75 sudo kill -5880 PID
+76 sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+77 sudo rm /var/lib/dpkg/lock-frontend
+78 sudo dpkg --configure -a
+79 sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+80 sudo apt-get update
+81 sudo apt-get install mysql-server
+82 systemctl status mysql
+83 wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j_8.8.32-1ubuntu22.04_all.deb
+84 sudo dpkg -i ~/Загрузки/mysql-connector-j_8.8.32-1ubuntu22.84_all.deb
+85 sudo apt dpkg -i ~/Загрузки/mysql-connector-j_8.8.32-1ubuntu22.04_all.deb
+86 sudo apt dpkg -i ~/Загрузки/mysql-connector-j_8.6.32-1ubuntu22.04_all.deb
+87 sudo dpkg -i ~/Загрузки /mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+88 sudo apt-dpkg -i ~/Загрузки/mysql-connector-j_8.6.32-1ubuntu22.04_all.deb
+89 sudo dpkg -i mysql-connector-j_8.0.32-1ubuntu22.84_all.deb
+90 ls
+91 sudo dpkg -i mysql-connector-j_8.8.32-1ubuntu22.04_all.deb
+92 sudo dpkg -r mysql-connector-:
+93 sudo apt-get autoremove
+94 history

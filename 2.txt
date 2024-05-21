@@ -1,0 +1,11 @@
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+cd Downloads/
+sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+sudo apt-get update
+sudo apt-get install mysql-server
+systemctl status mysql
+wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+sudo dpkg -i ~/Загрузки/mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+sudo dpkg -r mysql-connector-j
+sudo apt-get autoremove
+[root@watrushka:/home/watrushka/Desktop#

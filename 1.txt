@@ -1,0 +1,23 @@
+[root@watrushka:/home/watrushka/Desktop# cat > 'Домашние животные'
+[Собаки
+[Кошки
+[Хомяки
+^C
+[root@watrushka:/home/watrushka/Desktop# cat > 'Вьючные животные'
+[Лошади
+[Верблюды
+[Ослы
+^C
+[root@ watrushka:/home/ watrushka/Desktop#  cat  Домашние\ животные Вьючные\ животные >' Животные'
+[root@watrushka:/home/Watrushka/Desktop# cat Животные
+Собаки 
+Кошки
+Лошади
+Верблюды
+Ослы
+[root@watrushka:/home/watrushka/Desktop# cat mv Животные 'Друзья человека'
+[root@watrushka:/home/watrushka/Desktop# mv mkdir newdir
+[root@watrushka:/home/watrushka/Desktop# mv Друзья\ человека newdir/
+[root@watrushka:/home/watrushka/Desktop# tree
+
+
